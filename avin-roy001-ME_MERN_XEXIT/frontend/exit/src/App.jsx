@@ -9,8 +9,8 @@ export default function App() {
     <div style={{ padding: 20 }}>
       <h1>Resignation Management System</h1>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Register />} />
         <Route path="/employee" element={<EmployeeDashboard />} />
         <Route path="/admin" element={<AdminDashboard />} />
       </Routes>
