@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:3001/api';
+const API_BASE = 'https://xexit-ejyv.onrender.com/api';
 
 export const register = (data) => axios.post(`${API_BASE}/auth/register`, data);
 export const login = (data) => axios.post(`${API_BASE}/auth/login`, data);
